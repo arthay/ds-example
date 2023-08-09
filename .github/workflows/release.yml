@@ -32,4 +32,6 @@ jobs:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           publish: pnpm release
         env:
-          NPM_TOKEN: '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'
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GH_TOKEN }}
+#          NPM_TOKEN: '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'
