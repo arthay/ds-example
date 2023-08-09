@@ -33,4 +33,4 @@ jobs:
           publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: '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'
+          NPM_TOKEN: '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'
