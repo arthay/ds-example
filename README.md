@@ -43,7 +43,6 @@ This Turborepo includes the following packages and applications:
 
 - `apps/docs`: Component documentation site with Storybook
 - `packages/@dsexample/core`: Core React components
-- `packages/@dsexample/utils`: Shared React utilities
 - `packages/@dsexample/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
 - `packages/@dsexample/eslint-config-acme`: ESLint preset
 
