@@ -45,7 +45,7 @@ This Turborepo includes the following packages and applications:
 - `packages/@dsexample/core`: Core React components
 - `packages/@dsexample/utils`: Shared React utilities
 - `packages/@dsexample/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
-- `packages/eslint-config-acme`: ESLint preset
+- `packages/@dsexample/eslint-config-acme`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-w` workspaces flag with `pnpm add`.
 

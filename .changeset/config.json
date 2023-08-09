@@ -6,5 +6,5 @@
   "linked": [],
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": ["@dsexample/docs", "eslint-config-acme"]
+  "ignore": ["@dsexample/docs"]
 }
