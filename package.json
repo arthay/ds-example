@@ -1,5 +1,8 @@
 {
   "private": false,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --no-cache --continue",
