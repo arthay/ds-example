@@ -1,7 +1,7 @@
 {
   "name": "@dsexample/tsconfig",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "license": "MIT",
   "publishConfig": {
     "access": "public"

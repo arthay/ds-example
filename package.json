@@ -11,9 +11,10 @@
     "release": "turbo run build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.25.2",
-    "eslint": "^8.29.0",
     "@dsexample/eslint-config-acme": "workspace:*",
+    "eslint": "^8.29.0",
     "prettier": "^2.8.0",
     "turbo": "latest"
   },
