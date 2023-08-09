@@ -1,6 +1,7 @@
 {
   "name": "@dsexample/eslint-config-acme",
   "version": "1.0.0",
+  "private": false,
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
