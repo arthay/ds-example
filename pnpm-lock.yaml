@@ -26,7 +26,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@acme/core':
+      '@dsexample/core':
         specifier: workspace:0.0.0
         version: link:../../packages/acme-core
       react:
@@ -36,7 +36,7 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@acme/tsconfig':
+      '@dsexample/tsconfig':
         specifier: workspace:0.0.0
         version: link:../../packages/acme-tsconfig
       '@storybook/addon-actions':
@@ -75,7 +75,7 @@ importers:
 
   packages/acme-core:
     devDependencies:
-      '@acme/tsconfig':
+      '@dsexample/tsconfig':
         specifier: workspace:*
         version: link:../acme-tsconfig
       '@types/react':
@@ -104,7 +104,7 @@ importers:
 
   packages/acme-utils:
     devDependencies:
-      '@acme/tsconfig':
+      '@dsexample/tsconfig':
         specifier: workspace:*
         version: link:../acme-tsconfig
       '@types/react':
