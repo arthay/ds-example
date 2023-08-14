@@ -1,7 +1,7 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
   "changelog": [
-    "@changesets/changelog-github",
+    "@svitejs/changesets-changelog-github-compact",
     { "repo": "arthay/ds-example" }
   ],
   "baseBranch": "main",
