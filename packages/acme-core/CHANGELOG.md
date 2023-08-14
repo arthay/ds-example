@@ -1,5 +1,11 @@
 # @dsexample/core
 
+## 2.0.5
+
+### Patch Changes
+
+- ssasd ([#11](https://github.com/arthay/ds-example/pull/11))
+
 ## 2.0.4
 
 ### Patch Changes
