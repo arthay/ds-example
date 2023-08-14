@@ -1,5 +1,11 @@
 # @dsexample/core
 
+## 2.0.4
+
+### Patch Changes
+
+- [#9](https://github.com/arthay/ds-example/pull/9) [`60871d0`](https://github.com/arthay/ds-example/commit/60871d02b771b2b7290eb83b185ab080e0408944) Thanks [@arthay](https://github.com/arthay)! - feat(acme-core): button component
+
 ## 2.0.3
 
 ### Patch Changes
