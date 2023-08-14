@@ -1,11 +1,11 @@
 import * as React from "react";
 
-export interface ButtonProps {
+export interface InputProps {
   children: React.ReactNode;
 }
 
-export function Button(props: ButtonProps) {
+export function Input(props: InputProps) {
   return <button>{props.children}bar</button>;
 }
 
-Button.displayName = "Button";
+Input.displayName = "Input";
