@@ -5,7 +5,7 @@ export interface ButtonProps {
 }
 
 export function Button(props: ButtonProps) {
-  return <button>{props.children}bar</button>;
+  return <button>{props.children}foo</button>;
 }
 
 Button.displayName = "Button";

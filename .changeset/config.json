@@ -1,8 +1,11 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
-  "changelog": "@changesets/cli/changelog",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "arthay/ds-example" }
+  ],
   "baseBranch": "main",
-  "commit": false,
+  "commit": true,
   "access": "public",
   "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
     "updateInternalDependents": "always"
