@@ -1,5 +1,11 @@
 # @dsexample/core
 
+## 2.0.3
+
+### Patch Changes
+
+- 88fb435: Feat: Core update
+
 ## 2.0.2
 
 ### Patch Changes
